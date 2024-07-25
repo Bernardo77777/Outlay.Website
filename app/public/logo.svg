@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 832.74 365.29">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fbb040;
+        font-family: FONTSPRINGDEMO-ProximaNovaExCnMediumRegular, 'FONTSPRING DEMO - Proxima Nova ExCn Medium';
+        font-size: 355px;
+      }
+
+      .cls-2 {
+        fill: #39b54a;
+        font-family: FONTSPRINGDEMO-ProximaNovaBlackRegular, 'FONTSPRING DEMO - Proxima Nova Black';
+        font-size: 320.01px;
+      }
+    </style>
+  </defs>
+  <text class="cls-2" transform="translate(.04 289.71) rotate(.04)"><tspan x="0" y="0">out</tspan></text>
+  <text class="cls-1" transform="translate(507.92 295.71)"><tspan x="0" y="0">lay</tspan></text>
+</svg>

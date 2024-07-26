@@ -207,11 +207,6 @@ const Cost = () => {
                                 <div className="form-group-buttons">
                                     <button className="btn btn-success mt-2">Registar</button>
 
-                                    {id && (
-                                        <button onClick={handleDelete} className="btn btn-danger mt-2 mx-2">
-                                            Eliminar
-                                        </button>
-                                    )}
 
                                     <Link to={"/cost-list"} className="btn btn-secondary mt-2 mx-2">
                                         Voltar

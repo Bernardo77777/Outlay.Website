@@ -1,16 +1,19 @@
 import React, { useState, useEffect } from 'react';
 import CostService from "../../../services/cost.service";
 import { Link } from 'react-router-dom';
-import DescriptionService from "../../../services/description.service.js";
 import descriptionService from "../../../services/description.service.js";
+import AuthService from "../../../services/auth.service.js";
+
+const userId = AuthService.getCurrentUserId();
 
 const costList = () => {
     const [Cost, setCosts] = useState([]);
     const [Coment, setComentes] = useState([]);
+    const [user, setUser] = useState(userId);
 
     useEffect(() => {
         async function fetchData() {
-            const data = await CostService.getAll();
+            const data = await CostService.getAll(user);
             setCosts(data.data);
         }
         fetchData();
